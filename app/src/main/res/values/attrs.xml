@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TestDemo">
+        <attr name="name" format="reference" />
+        <attr name="text" format="string" />
+        <attr name="testAttr" format="integer" />
+        <attr name="age">
+            <flag name="child" value="10" />
+            <flag name="young" value="18" />
+            <flag name="oldman" value="60" />
+        </attr>
+        <attr name="textSize" format="dimension" />
+    </declare-styleable>
+
+
+    <attr name="titleText" format="string" />
+    <attr name="titleTextColor" format="color" />
+    <attr name="titleTextSize" format="dimension" />
+    <declare-styleable name="CustomTitleView">
+        <attr name="titleText" />
+        <attr name="titleTextColor" />
+        <attr name="titleTextSize" />
+    </declare-styleable>
+
+
+
+
+    <attr name="image" format="reference" />
+    <attr name="imageScaleType">
+        <enum name="fillXY" value="0" />
+        <enum name="center" value="1" />
+    </attr>
+    <declare-styleable name="CustomImageView">
+        <attr name="titleText" />
+        <attr name="titleTextSize" />
+        <attr name="titleTextColor" />
+        <attr name="image" />
+        <attr name="imageScaleType" />
+    </declare-styleable>
+
+
+
+
+    <attr name="firstColor" format="color" />
+    <attr name="secondColor" format="color" />
+    <attr name="circleWidth" format="dimension" />
+    <attr name="speed" format="integer" />
+    <declare-styleable name="CustomProgressBar">
+        <attr name="firstColor" />
+        <attr name="secondColor" />
+        <attr name="circleWidth" />
+        <attr name="speed" />
+    </declare-styleable>
+
+</resources>

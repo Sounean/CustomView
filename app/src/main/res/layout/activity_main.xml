@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wjy="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <!--<com.example.customview.CustomView
+        wjy:testAttr="1000"
+        wjy:text="Hello"
+        android:layout_height="200dp"
+        android:layout_width="200dp"
+        tools:ignore="MissingConstraints" />
+
+    <com.example.customview.CustomTitleView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        wjy:titleText="3712"
+        wjy:titleTextColor="#ff0000"
+        wjy:titleTextSize="40sp"
+        tools:ignore="MissingConstraints" />-->
+
+    <!--<com.example.customview.CustomImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        wjy:image="@drawable/img"
+        wjy:imageScaleType="center"
+        wjy:titleText="妹子~"
+        wjy:titleTextColor="#ff0000"
+        wjy:titleTextSize="12sp"
+        tools:ignore="MissingConstraints" />
+
+    <com.example.customview.CustomImageView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        wjy:image="@drawable/device_user"
+        wjy:imageScaleType="center"
+        wjy:titleText="helloworldwelcome"
+        wjy:titleTextColor="#00ff00"
+        wjy:titleTextSize="20sp"
+        tools:ignore="MissingConstraints" />-->
+
+    <com.example.customview.CustomRingView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        tools:ignore="MissingConstraints"
+        wjy:circleWidth="200dp"
+        wjy:firstColor="#00ff00"
+        wjy:layout_constraintBottom_toBottomOf="parent"
+        wjy:layout_constraintEnd_toEndOf="parent"
+        wjy:layout_constraintStart_toStartOf="parent"
+        wjy:layout_constraintTop_toTopOf="parent"
+        wjy:secondColor="#ff0000" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
