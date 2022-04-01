@@ -7,6 +7,7 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Rect;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
 
@@ -101,7 +102,7 @@ private String mTitleText;
         mBound = new Rect();
         mPaint.getTextBounds(mTitleText, 0, mTitleText.length(), mBound);
 
-        this.setOnClickListener(new OnClickListener()
+       /* this.setOnClickListener(new OnClickListener()
         {
 
             @Override
@@ -111,7 +112,7 @@ private String mTitleText;
                 postInvalidate();
             }
 
-        });
+        });*/
     }
 
     private String randomText()
@@ -193,5 +194,24 @@ private String mTitleText;
 
         mPaint.setColor(mTitleTextColor);   // 获取字体颜色
         canvas.drawText(mTitleText, getWidth() / 2 - mBound.width() / 2, getHeight() / 2 + mBound.height() / 2, mPaint);    // 绘制字体
+    }
+
+
+    @Override
+    public void setOnClickListener(@Nullable OnClickListener l) {
+        super.setOnClickListener(new SuperOnClickListener(l));
+    }
+
+    private class SuperOnClickListener implements OnClickListener {
+        OnClickListener mOnClickListener;
+        public SuperOnClickListener(OnClickListener l) {
+            mOnClickListener = l;
+        }
+
+        @Override
+        public void onClick(View view) {
+            mOnClickListener.onClick(view);
+            Log.e("---------------------> ", "里面监听到被点击");
+        }
     }
 }

@@ -53,4 +53,24 @@
         <attr name="speed" />
     </declare-styleable>
 
+    <declare-styleable name="TimerButtom">
+        <!--文本-->
+        <attr name="send_text" format="string"/>
+        <!--颜色-->
+        <attr name="tip_text_color" format="color"/>
+        <!--文字大小-->
+        <attr name="tip_text_size" format="dimension"/>
+        <attr name="send_time" format="integer"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="ButtomTest">
+        <!--文本-->
+        <attr name="buttom_demo" format="string"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="TimerBottom">
+        <attr name="duration_bottom" format="integer" />
+    </declare-styleable>
 </resources>
