@@ -58,7 +58,7 @@ public class TimerBottom extends androidx.appcompat.widget.AppCompatButton {
 
 
 
-    @Override
+   /* @Override
     public void setOnClickListener(@Nullable OnClickListener l) {
         super.setOnClickListener(new SuperOnClickListener(l));
     }
@@ -74,10 +74,10 @@ public class TimerBottom extends androidx.appcompat.widget.AppCompatButton {
             mOnClickListener.onClick(view);
             Log.e("--------------------->", "里面监听到被点击");
         }
-    }
+    }*/
 
 
-    private void startCountDown() {
+    public void startCountDown() {
         Log.e("---------------------> ", "4");
         mHandler = new Handler();
         mHandler.post(new Runnable() {

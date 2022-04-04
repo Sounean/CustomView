@@ -59,7 +59,7 @@ public class TimerButton extends androidx.appcompat.widget.AppCompatButton {
         mPaint = new Paint();
     }
 
-    @Override
+    /*@Override
     public void setOnClickListener(@Nullable OnClickListener l) {
         super.setOnClickListener(new TimerButton.SuperOnClickListener(l));
     }
@@ -73,9 +73,10 @@ public class TimerButton extends androidx.appcompat.widget.AppCompatButton {
         @Override
         public void onClick(View view) {
             mOnClickListener.onClick(view);
+            startCountDown();
             Log.e("---------------------> ", "里面监听到被点击");
         }
-    }
+    }*/
 
     private void startCountDown() {
         mHandler = new Handler();

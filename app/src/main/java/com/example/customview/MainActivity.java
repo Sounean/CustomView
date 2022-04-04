@@ -28,12 +28,7 @@ public class MainActivity extends AppCompatActivity  {
 
 
         /*TimerBottom timerBtn = findViewById(R.id.timer_btn_demo);
-        timerBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Log.e("--------------------->", "外面给他新建的点击事件12 " );
-            }
-        });*/
+        timerBtn.startCountDown();*/
     }
 
 

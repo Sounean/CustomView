@@ -8,6 +8,10 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <com.example.customview.HenCoderView.view.TestView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
     <!--<com.example.customview.TimerButton
         android:layout_width="200dp"
         android:layout_height="200dp"
@@ -91,7 +95,7 @@
         wjy:titleTextSize="20sp"
         tools:ignore="MissingConstraints" />-->
 
-    <com.example.customview.CustomRingView
+    <!--<com.example.customview.CustomRingView
         android:layout_width="100dp"
         android:layout_height="100dp"
         tools:ignore="MissingConstraints"
@@ -101,7 +105,7 @@
         wjy:layout_constraintEnd_toEndOf="parent"
         wjy:layout_constraintStart_toStartOf="parent"
         wjy:layout_constraintTop_toTopOf="parent"
-        wjy:secondColor="#ff0000" />
+        wjy:secondColor="#88880000" />-->
 
 
 

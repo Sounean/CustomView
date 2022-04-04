@@ -15,8 +15,6 @@ import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
 
-import androidx.annotation.Nullable;
-
 public class CustomImageView extends View {
 
     int mImageScale;
