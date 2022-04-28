@@ -8,7 +8,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <com.example.customview.HenCoderView.view.TestView
+    <com.example.customview.HenCoderView.view.Dashboard
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
