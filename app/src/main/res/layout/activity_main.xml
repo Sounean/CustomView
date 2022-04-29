@@ -8,9 +8,24 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <com.example.customview.HenCoderView.view.Dashboard
+    //绘制环
+    <com.example.customview.HenCoderView.view.SportsView
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
+
+    <!--// 蒙版头像
+    <com.example.customview.HenCoderView.view.AvatarView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>-->
+
+    <!--//饼状图
+    <com.example.customview.HenCoderView.view.PieChart
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>-->
+
+    <!--<com.example.customview.HenCoderView.view.Dashboard
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>-->
 
     <!--<com.example.customview.TimerButton
         android:layout_width="200dp"
@@ -78,7 +93,7 @@
         android:padding="10dp"
         wjy:image="@drawable/img"
         wjy:imageScaleType="center"
-        wjy:titleText="妹子~"
+        wjy:titleText="标题栏~"
         wjy:titleTextColor="#ff0000"
         wjy:titleTextSize="12sp"
         tools:ignore="MissingConstraints" />

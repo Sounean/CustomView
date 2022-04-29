@@ -59,8 +59,8 @@ public class Dashboard extends View {
         //第三次绘制，画指针
                 canvas.drawLine(getWidth()/2,
                         getHeight()/2,
-                        (float) Math.cos(Math.toRadians(getAngleMark(5)))*LENGTH,
-                        (float)Math.sin(Math.toRadians(getAngleMark(5)))*LENGTH,
+                        (float) Math.cos(Math.toRadians(getAngleMark(5)))*LENGTH+getWidth()/2,
+                        (float)Math.sin(Math.toRadians(getAngleMark(5)))*LENGTH+getHeight()/2,
                         paint);
     }
 
