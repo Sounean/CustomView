@@ -13,6 +13,9 @@ import androidx.annotation.Nullable;
 
 import com.example.customview.HenCoderView.Util;
 
+/*
+* 文字绘制（对齐）
+* */
 public class SportsView extends View {
     private static final int RADIUS = (int) Util.dp2px(150);
     private static final int RING_WIDTH = (int) Util.dp2px(20);

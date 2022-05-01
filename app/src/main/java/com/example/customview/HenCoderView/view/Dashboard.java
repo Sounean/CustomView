@@ -13,6 +13,10 @@ import androidx.annotation.Nullable;
 
 import com.example.customview.HenCoderView.Util;
 
+
+/*
+* 仪表盘
+* */
 public class Dashboard extends View {
     private static final int ANGLE = 120;   // 设置角度为120度
     private static final float RADIUS = Util.dp2px(150);    //半径

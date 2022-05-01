@@ -19,7 +19,7 @@ import com.example.customview.HenCoderView.Util;
 import com.example.customview.R;
 
 /*
-* 头像
+* 头像（扣成自定义的形状）
 * */
 public class AvatarView extends View {
     private static final float WIDTH = Util.dp2px(150);
