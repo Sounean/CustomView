@@ -7,8 +7,6 @@ import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
 
-import androidx.annotation.Nullable;
-
 import com.example.customview.HenCoderView.Util;
 
 /**
@@ -21,7 +19,7 @@ public class CircleVIew extends View {
     Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
     private float radius = Util.dp2px(50);
 
-    public CircleVIew(Context context, @Nullable AttributeSet attrs) {
+    public CircleVIew(Context context,  AttributeSet attrs) {
         super(context, attrs);
     }
 

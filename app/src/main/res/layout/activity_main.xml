@@ -1,29 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/c1"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:wjy="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:onClick="c1Click"
+    android:background="@color/purple">
 
-    // 布局
+    <FrameLayout
+        android:background="@color/green"
+        android:onClick="f1Click"
+        android:id="@+id/f1"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        tools:ignore="MissingConstraints" />
+
+    //触摸事件
+    <com.example.customview.HenCoderView.touch.TouchView
+        android:tooltipText="haha"
+        android:onClick="viewClick"
+        android:id="@+id/view"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@color/black"
+        tools:ignore="MissingConstraints" />
+
+
+
+
+
+    //自定义布局
+    <!--// 自动换行布局
+    <com.example.customview.HenCoderView.view.TagLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="600dp"
+            android:background="@color/black"/>
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="600dp"
+            android:background="@color/black"/>
+    </com.example.customview.HenCoderView.view.TagLayout>-->
+
+    <!--//简单改写已有的view尺寸 根据里面的圆，去测量view的宽高
+    <com.example.customview.HenCoderView.view.CircleMesureView
+        android:layout_width="200dp"
+        android:layout_height="300dp"/>-->
+
+
+    <!--//简单改写已有的view尺寸（本来长方形的改成正方形的，且不影响排放）
+    <com.example.customview.HenCoderView.view.SquareImageView
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:background="@color/black"/>
+    <View
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/avatar_img"/>-->
+
+
+    <!--// 布局
     <com.example.customview.HenCoderView.view.OneHundredView
         android:background="@color/design_default_color_secondary_variant"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints" />-->
 
-    // 属性动画
-<!--    <com.example.customview.HenCoderView.view.CircleVIew-->
-<!--        android:id="@+id/view"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"/>-->
-<!--    <com.example.customview.HenCoderView.view.CameraVIew-->
-<!--        android:id="@+id/view"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"/>-->
+    <!--// 属性动画
+    <com.example.customview.HenCoderView.view.CircleVIew
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.example.customview.HenCoderView.view.CameraVIew
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>-->
 
     <!--// cameraview,裁剪，几何变换，camera，折叠
     <com.example.customview.HenCoderView.view.CameraVIew
@@ -156,4 +214,4 @@
 
 
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
