@@ -10,6 +10,14 @@
     android:onClick="c1Click"
     android:background="@color/purple">
 
+
+    <com.example.customview.HenCoderView.touch.ScalableImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+    <!--//viewgroup点击事件
     <FrameLayout
         android:background="@color/green"
         android:onClick="f1Click"
@@ -26,7 +34,7 @@
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:background="@color/black"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints" />-->
 
 
 
@@ -212,6 +220,40 @@
         wjy:layout_constraintTop_toTopOf="parent"
         wjy:secondColor="#88880000" />-->
 
+    <Button
+        android:id="@+id/btn_recycleview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:onClick="jump_recycleview"
+        android:text="关于recycleView的"
+        tools:ignore="MissingConstraints"
+        wjy:layout_constraintBottom_toBottomOf="parent"
+        wjy:layout_constraintEnd_toEndOf="parent"
+        wjy:layout_constraintStart_toStartOf="parent" />
 
+    <Button
+        android:id="@+id/btn_scrollLinearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginBottom="40dp"
+        android:onClick="jump_scrollview"
+        android:text="关于listview与scrollview的"
+        tools:ignore="MissingConstraints"
+        wjy:layout_constraintBottom_toBottomOf="parent"
+        wjy:layout_constraintEnd_toEndOf="parent"
+        wjy:layout_constraintHorizontal_bias="0.503"
+        wjy:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:onClick="jump_conflict"
+        android:id="@+id/btn_conflict"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="跳转到滑动冲突模块"
+        tools:ignore="MissingConstraints"
+        wjy:layout_constraintBottom_toBottomOf="parent"
+        wjy:layout_constraintEnd_toEndOf="parent"
+        wjy:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

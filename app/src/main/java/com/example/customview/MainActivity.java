@@ -1,23 +1,16 @@
 package com.example.customview;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
-import android.animation.Animator;
-import android.animation.AnimatorSet;
-import android.animation.ObjectAnimator;
-import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
-import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
-import android.widget.FrameLayout;
 
-import com.example.customview.HenCoderView.Util;
-import com.example.customview.HenCoderView.view.CameraVIew;
-import com.example.customview.HenCoderView.view.CircleVIew;
+import com.example.customview.HenCoderView.ScrollListView.ScrollListAct;
+import com.example.customview.HenCoderView.conflict.ConflictMainAct;
+import com.example.customview.HenCoderView.recyclerView.RecycleMainActivity;
 
 public class MainActivity extends AppCompatActivity  {
     private static String TAG = "------->";
@@ -27,8 +20,8 @@ public class MainActivity extends AppCompatActivity  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ConstraintLayout c1 = findViewById(R.id.c1);// 父view
-        FrameLayout f1 = findViewById(R.id.f1);// 位子在view下面的
-        View view = findViewById(R.id.view);
+       // FrameLayout f1 = findViewById(R.id.f1);// 位子在view下面的
+        //View view = findViewById(R.id.view);
 
 
     }
@@ -43,5 +36,23 @@ public class MainActivity extends AppCompatActivity  {
 
     public void viewClick(View view) {
         Log.e(TAG, "viewClick ");
+    }
+
+    public void jump_conflict(View view) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this, ConflictMainAct.class);
+        startActivity(intent);
+    }
+
+    public void jump_scrollview(View view) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this, ScrollListAct.class);
+        startActivity(intent);
+    }
+
+    public void jump_recycleview(View view) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this, RecycleMainActivity.class);
+        startActivity(intent);
     }
 }

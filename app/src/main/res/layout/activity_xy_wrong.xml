@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HenCoderView.conflict.xyWrongAct">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/tv"
+            android:maxHeight="100dp"
+            android:singleLine="false"
+            android:gravity="center"
+            android:background="@color/purple_700"
+            android:text="以前对触摸事件的疑问：1.如果一个父view里面嵌套了一个子view，那么点击子view时，父view点击事件也会被触发吗（也就是默认某一个点被点击后，包含了该点的view的点击事件都会被触发吗）？
+            以前对触摸事件的疑问：1.如果一个父view里面嵌套了一个子view，那么点击子view时，父view点击事件也会被触发吗（也就是默认某一个点被点击后，包含了该点的view的点击事件都会被触发吗）？
+            以前对触摸事件的疑问：1.如果一个父view里面嵌套了一个子view，那么点击子view时，父view点击事件也会被触发吗（也就是默认某一个点被点击后，包含了该点的view的点击事件都会被触发吗）？
+            以前对触摸事件的疑问：1.如果一个父view里面嵌套了一个子view，那么点击子view时，父view点击事件也会被触发吗（也就是默认某一个点被点击后，包含了该点的view的点击事件都会被触发吗）？
+            以前对触摸事件的疑问：1.如果一个父view里面嵌套了一个子view，那么点击子view时，父view点击事件也会被触发吗（也就是默认某一个点被点击后，包含了该点的view的点击事件都会被触发吗）？
+            以前对触摸事件的疑问：1.如果一个父view里面嵌套了一个子view，那么点击子view时，父view点击事件也会被触发吗（也就是默认某一个点被点击后，包含了该点的view的点击事件都会被触发吗）？
+            以前对触摸事件的疑问：1.如果一个父view里面嵌套了一个子view，那么点击子view时，父view点击事件也会被触发吗（也就是默认某一个点被点击后，包含了该点的view的点击事件都会被触发吗）？
+            " />
+
+        <!--<TextView
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:background="@color/purple_200"
+            android:text="@string/app_name"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:background="@color/purple_200"
+            android:text="@string/app_name"/>-->
+    </LinearLayout>
+</ScrollView>
