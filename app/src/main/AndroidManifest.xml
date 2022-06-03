@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CustomView">
         <activity
+            android:name=".HenCoderView.rotate.RotateAct"
+            android:exported="false" />
+        <activity
             android:name=".HenCoderView.recyclerView.LayoutManager.LayoutManagerRecycleAct"
             android:exported="false" />
         <activity
@@ -44,7 +47,7 @@
         </activity>
         <activity
             android:name=".HenCoderView.ScrollListView.ScrollListAct"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>

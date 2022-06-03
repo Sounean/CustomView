@@ -36,7 +36,7 @@ public class ScrollerLinearLayout extends LinearLayout {
     }
 
     private void init(Context context) {
-        mScroller = new Scroller(context, new LinearInterpolator());
+        mScroller = new Scroller(context, new LinearInterpolator());    // 第二个参数表示以常量速率滑动
     }
 
     /*

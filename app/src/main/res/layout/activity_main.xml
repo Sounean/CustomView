@@ -221,15 +221,28 @@
         wjy:secondColor="#88880000" />-->
 
     <Button
-        android:id="@+id/btn_recycleview"
+        android:id="@+id/btn_rotate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="80dp"
-        android:onClick="jump_recycleview"
-        android:text="关于recycleView的"
+        android:onClick="jump_rotate"
+        android:text="旋转动态效果"
         tools:ignore="MissingConstraints"
         wjy:layout_constraintBottom_toBottomOf="parent"
         wjy:layout_constraintEnd_toEndOf="parent"
+        wjy:layout_constraintHorizontal_bias="0.504"
+        wjy:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_recycleview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="jump_recycleview"
+        android:text="关于recycleView的"
+        tools:ignore="MissingConstraints"
+        wjy:layout_constraintBottom_toTopOf="@+id/btn_rotate"
+        wjy:layout_constraintEnd_toEndOf="parent"
+        wjy:layout_constraintHorizontal_bias="0.535"
         wjy:layout_constraintStart_toStartOf="parent" />
 
     <Button

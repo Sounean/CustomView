@@ -11,6 +11,7 @@ import android.view.View;
 import com.example.customview.HenCoderView.ScrollListView.ScrollListAct;
 import com.example.customview.HenCoderView.conflict.ConflictMainAct;
 import com.example.customview.HenCoderView.recyclerView.RecycleMainActivity;
+import com.example.customview.HenCoderView.rotate.RotateAct;
 
 public class MainActivity extends AppCompatActivity  {
     private static String TAG = "------->";
@@ -53,6 +54,12 @@ public class MainActivity extends AppCompatActivity  {
     public void jump_recycleview(View view) {
         Intent intent = new Intent();
         intent.setClass(MainActivity.this, RecycleMainActivity.class);
+        startActivity(intent);
+    }
+
+    public void jump_rotate(View view) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this, RotateAct.class);
         startActivity(intent);
     }
 }

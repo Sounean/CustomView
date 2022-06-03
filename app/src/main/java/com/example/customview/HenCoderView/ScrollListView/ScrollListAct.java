@@ -48,7 +48,7 @@ public class ScrollListAct extends AppCompatActivity implements View.OnClickList
     }
 
     /*
-    * 可滑动删除的listview
+    * 滑动复位listview
     * */
     private void initScrollLinearLayout() {
         findViewById(R.id.btn_start).setOnClickListener(this);

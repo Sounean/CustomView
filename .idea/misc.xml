@@ -7,9 +7,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/ASProjStudy/CustomView/app/src/main/res/drawable/ic_launcher_background.xml" value="0.216" />
+        <entry key="..\:/ASProjStudy/CustomView/app/src/main/res/drawable/ratate_background.xml" value="0.2065" />
         <entry key="..\:/ASProjStudy/CustomView/app/src/main/res/layout/activity_conflict_main.xml" value="0.19427083333333334" />
         <entry key="..\:/ASProjStudy/CustomView/app/src/main/res/layout/activity_main.xml" value="0.20885416666666667" />
         <entry key="..\:/ASProjStudy/CustomView/app/src/main/res/layout/activity_recycle_main.xml" value="0.18342391304347827" />
+        <entry key="..\:/ASProjStudy/CustomView/app/src/main/res/layout/activity_rotate.xml" value="0.22" />
         <entry key="..\:/ASProjStudy/CustomView/app/src/main/res/layout/activity_simple_recycle.xml" value="0.18342391304347827" />
         <entry key="..\:/ASProjStudy/CustomView/app/src/main/res/layout/activity_util.xml" value="0.1" />
         <entry key="..\:/ASProjStudy/CustomView/app/src/main/res/layout/activity_xy_solve.xml" value="0.20885416666666667" />
@@ -18,7 +21,7 @@
         <entry key="..\:/ASProjStudy/CustomView/app/src/main/res/layout/activity_xy_solver_by_outter.xml" value="0.1453125" />
         <entry key="..\:/ASProjStudy/CustomView/app/src/main/res/layout/activity_xy_wrong.xml" value="0.1453125" />
         <entry key="..\:/ASProjStudy/CustomView/app/src/main/res/layout/item_coverflow.xml" value="0.184375" />
-        <entry key="..\:/ASProjStudy/CustomView/app/src/main/res/layout/item_dellistview_layout.xml" value="0.16979166666666667" />
+        <entry key="..\:/ASProjStudy/CustomView/app/src/main/res/layout/item_dellistview_layout.xml" value="0.10157041540020263" />
         <entry key="..\:/ASProjStudy/CustomView/app/src/main/res/layout/item_simple_recycle.xml" value="0.1" />
         <entry key="..\:/ASProjStudy/CustomView/app/src/main/res/layout/item_simple_recycle02.xml" value="0.1947463768115942" />
         <entry key="..\:/Proj/CustomView/app/src/main/res/layout/activity_main.xml" value="0.33" />
