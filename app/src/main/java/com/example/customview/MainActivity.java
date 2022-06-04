@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
+import com.airbnb.lottie.Lottie;
+import com.example.customview.HenCoderView.Lottie.SplashScreen;
 import com.example.customview.HenCoderView.ScrollListView.ScrollListAct;
 import com.example.customview.HenCoderView.conflict.ConflictMainAct;
 import com.example.customview.HenCoderView.recyclerView.RecycleMainActivity;
@@ -60,6 +62,12 @@ public class MainActivity extends AppCompatActivity  {
     public void jump_rotate(View view) {
         Intent intent = new Intent();
         intent.setClass(MainActivity.this, RotateAct.class);
+        startActivity(intent);
+    }
+
+    public void jump_lottie(View view) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this, SplashScreen.class);
         startActivity(intent);
     }
 }

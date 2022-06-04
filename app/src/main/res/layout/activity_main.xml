@@ -12,8 +12,9 @@
 
 
     <com.example.customview.HenCoderView.touch.ScalableImageView
+        android:id="@+id/scalableImageView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent" />
 
 
 
@@ -231,6 +232,17 @@
         wjy:layout_constraintBottom_toBottomOf="parent"
         wjy:layout_constraintEnd_toEndOf="parent"
         wjy:layout_constraintHorizontal_bias="0.504"
+        wjy:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_lottie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="jump_lottie"
+        android:text="关于lottie的"
+        tools:ignore="MissingConstraints"
+        wjy:layout_constraintBottom_toTopOf="@+id/btn_recycleview"
+        wjy:layout_constraintEnd_toEndOf="parent"
         wjy:layout_constraintStart_toStartOf="parent" />
 
     <Button

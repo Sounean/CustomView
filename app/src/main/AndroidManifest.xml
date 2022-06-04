@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CustomView">
         <activity
+            android:name=".HenCoderView.Lottie.SplashScreen"
+            android:exported="false" />
+        <activity
             android:name=".HenCoderView.rotate.RotateAct"
             android:exported="false" />
         <activity
